@@ -30,6 +30,15 @@ int search(vector<int>& nums, int target) {
 }
 int main()
 {
+    int n;
+    cin>>n;
+    vector<int> nums(n);
+    for(int i=0;i<n;i++){
+        cin>>nums[i];
+    }
+    int target;
+    cin>>target;
+    cout<<search(nums,target)<<endl;
     
     return 0;
 }
