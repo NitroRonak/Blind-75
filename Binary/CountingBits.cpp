@@ -15,6 +15,8 @@ using namespace std;
 
 //Time complexity of this approach is O(n*log(m))
 //space complexity is O(1)
+// Here we are useing Brian Kernighan's Algorithm is more efficient in 
+// counting the number of set bits in a binary representation
 vector<int> countBits(int n) {
     vector<int> ans;
         for (int i = 0; i <= n; i++) {
